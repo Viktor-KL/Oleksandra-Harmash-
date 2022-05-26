@@ -1,0 +1,250 @@
+@media screen and (max-width: 1200px){
+    .nav__links{
+        font-size: 16px;
+
+    }
+    .button{
+        font-size: 15px;
+        padding: 16px 20px;
+    }
+    .header__title{
+        font-size: 38px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .plan__title{
+        font-size: 25px;
+    }
+    .accordion{
+        padding: 20px 16px;
+        font-size: 20px;
+    }
+    .panel{
+        padding-left: 16px;
+    }
+    .me__info-subtitle{
+        font-size: 16px;
+    }
+    .me__img-block{
+        height: 756px;
+        background-position: -60px 0px;
+        border-radius: 60px 0px 0px 60px;
+    }
+    .me__info-title{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    nav{
+        display: none;
+    }
+    .nav__mob{
+        display: block;
+        padding: 30px 0;
+        background: #F2F2F2;
+    }
+    .hamburger{
+        width: 10%;
+    }
+    .nav__mob-nav{
+        background: #F2F2F2;
+        height: 100vh;
+        z-index: 999;
+        padding: 35px 50px 50px 44px;
+        position: fixed;
+        display: none;
+    }
+    .nav__mob-links{
+        display: block;
+        margin-top: 20px;
+    }
+    .hamburger-close{
+        width: 25px;
+    }
+    .active{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    
+
+    .header__title{
+        font-size: 35px;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .button{
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .plan__block-wrap{
+        max-width: 50% !important;
+        flex: 50% !important;
+        margin: 0 auto;
+    }
+    .me{
+        display: none;
+    }
+    .me__mob{
+        display: block;
+    }
+    .me__mob__img-block{
+        width: 500px;
+        height: 600px;
+        background: url(../img/meMob.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        border-radius: 30px 30px 0px 0px;
+    }
+    .me__mob__info-block{
+        width: 500px;
+        margin: 0 auto;
+        padding: 40px;
+        background: #F2F2F2;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .me__info-subtitle{
+        margin: 16px 0px 30px 0px;
+    }
+    .contact__title{
+        font-size: 21px;
+    }
+    .contact__img{
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .hamburger{
+        width: 125%;
+    }
+    .header__info-block{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .mentor__block{
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .plan__block-wrap{
+        min-width: 65% !important;
+    }
+    .plan__title{
+        font-size: 21px;
+    }
+    .plan__block-subtitle{
+        font-size: 16px;
+    }
+    .plan__block-money{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .plan__block{
+        padding: 30px 20px 40px 20px;
+    }
+    .accordion{
+        font-size: 18px;
+    }
+    .contact__img{
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .button{
+        padding: 14px;
+        font-size: 12px;
+    }
+    .hamburger{
+        width: 40%;
+    }
+    .hamburger-close{
+        width: 20px;
+    }
+    .nav__links{
+        font-size: 15px;
+    }
+
+    .header__title{
+        font-size: 28px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    header{
+        margin: 60px 0;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .mentor__block{
+        max-width: 60%;
+        flex: 60%;
+        margin-top: 30px;
+    }
+    .plan__block-wrap{
+        min-width: 100% !important;
+    }
+    .plan__title{
+        font-size: 18px;
+    }
+    .plan__block-subtitle{
+        font-size: 14px;
+    }
+    .plan__block-money{
+        font-size: 16px;
+    }
+    .plan__block{
+        margin-top: 30px;
+    }
+    .accordion{
+        font-size: 14px;
+    }
+    .panel{
+        font-size: 12px;
+        padding-right: 16px;
+    }
+    .me__mob__img-block{
+        width: 260px;
+        height: 300px;
+    }
+    .me__info-title{
+        font-size: 16px;
+    }
+    .me__mob__info-block{
+        width: 260px;
+        padding: 16px 16px 30px 16px;
+        text-align: center;
+
+    }
+    .me__info-subtitle{
+        font-size: 12px;
+        margin: 16px 0px 20px 0px;
+    }
+    .contact__title{
+        font-size: 16px;
+    }
+    .contact__link-block{
+        margin-top: 20px;
+    }
+    .contact__img{
+        width: 80%;
+    }
+    .dev-link{
+        text-align: right;
+        font-size: 14px;
+    }
+
+}
